@@ -1,0 +1,75 @@
+<div class="col-auto layout-rightside-col" id="rightSideCol">
+    <div class="overlay"></div>
+
+    <!-- Tab / Button that collapse section -->
+    <div class="right-sidebar-btns">
+        <div class="d-flex flex-column align-items-start" style="width: 45px; margin: 1px; position: fixed;">
+            <button onclick="rightSideBar()" type="button" class="btn btn-sm mt-5 vertical-menu-btn fs-24 right-hamburger" id="ri-menu-3-line">
+                <span class="ri-menu-3-line">
+                  <!-- <span></span>
+                  <span></span>
+                  <span></span> -->
+                  </span>
+              </button>
+            <button type="button" class="btn btn-outline-primary btn-icon waves-effect waves-light mt-2" id="#scheduleButton" data-bs-toggle="tooltip" data-bs-placement="top" title="Schedule">
+                <i class="ri-calendar-todo-fill"></i>
+            </button>
+            <button type="button" class="btn btn-outline-danger btn-icon waves-effect waves-light mt-2" id="notificationsButton" data-bs-toggle="tooltip" data-bs-placement="top" title="Notifications">
+                <i class="ri-notification-3-fill"></i>
+            </button>
+            <button type="button" class="btn btn-outline-success btn-icon waves-effect waves-light mt-2" id="tasksButton" data-bs-toggle="tooltip" data-bs-placement="top" title="Tasks">
+                <i class="ri-list-check-2"></i>
+            </button>
+            <button type="button" class="btn btn-outline-warning btn-icon waves-effect waves-light mt-2" id="pinned-tasksButton" data-bs-toggle="tooltip" data-bs-placement="top" title="Pinned Tasks">
+                <i class="ri-list-check"></i>
+            </button>
+    
+            <button type="button" class="btn btn-outline-danger btn-icon waves-effect waves-light mt-2" id="passwordsButton" data-bs-toggle="tooltip" data-bs-placement="top" title="Vault">
+                <i class="ri-lock-password-fill"></i>
+            </button>
+            
+            <button type="button" class="btn btn-outline-primary btn-icon waves-effect waves-light mt-2" id="timerButton" data-bs-toggle="tooltip" data-bs-placement="top" title="Timer">
+                <i class="ri-alarm-fill"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="layout-rightside">
+        <div class="card h-100 rounded-0">
+            <div class="card-body p-0">
+                <div class="p-3" id="scheduleSection">
+                    <% include ('./sidebar_right_schedule.ejs') %> <!-- Include the Schedule section -->
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="p-3" id="timerSection">
+                    <% include ('./sidebar_right_timer.ejs') %> <!-- Include the Timer section -->
+                </div>
+            </div>
+        </div> <!-- end card -->
+    </div> <!-- end .rightbar -->
+
+</div> <!-- end col -->
+<style>
+    .d-none {
+        display: none !important;
+    }
+</style>
+
+
+
+<script>
+    // JavaScript code to handle button clicks
+    document.getElementById('scheduleButton').addEventListener('click', function () {
+        var scheduleSection = document.getElementById('scheduleSection');
+        scheduleSection.classList.toggle('d-none');
+    });
+
+    function rightSideBar(){
+        //alert('Right Ham')
+        const rightHamburgerIcon = document.getElementById('ri-menu-3-line');
+        const layoutRightsideCol = document.getElementById('rightSideCol');
+        layoutRightsideCol.classList.toggle('collapsed');
+        rightHamburgerIcon.classList.toggle('open');
+    }
+</script>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" data-layout="vertical" data-layout-position= "fixed" data-sidebar-size="lg" data-layout-style="default" data-bs-theme="dark" data-sidebar="dark" data-sidebar-image="img-2" data-preloader="enable">
+
+<head>
+  
+  <meta charset="utf-8" />
+  <title> <%- page_title %> | Master Tasks Manager </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- App favicon -->
+  <link rel="shortcut icon" href="/assets/images/MTM-Icon.png">
+  <%- HeaderCss %>
+
+  <%- include ('../partials/head-css.ejs') %>
+
+</head>
+
+<body>
+  <div id="layout-wrapper">
+    <%- include ('../partials/topbar') %>
+    <%- include ('../partials/sidebar_left') %>
+    <div class="main-content overflow-hidden">
+      <div class="page-content" style="padding: calc(20px + 1.5rem) calc(1.5rem * .5) 40px calc(1.5rem * .5);">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+                <%- body%>
+            </div>
+            <%- include ('../partials/sidebar_right') %>
+          </div>
+        </div> <!-- container-fluid -->
+
+      </div> <!-- End Page-content -->
+
+      <%- include ('../partials/footer') %>
+
+    </div> <!-- end main content-->
+  </div> <!-- END layout-wrapper -->
+  <%- include ('../partials/vendor-scripts') %>
+  <%- FooterJs %>
+
+  <!-- App js -->
+  <script src="/assets/js/app.js"></script>
+
+</body>
+
+</html>

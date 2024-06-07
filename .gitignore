@@ -1,0 +1,32 @@
+# Folders to ignore
+node_modules/
+public/assets/videos/
+# utils/
+# python/
+
+# views/crypy-pies
+# views/chatGPT
+# views/inbox
+# views/otherTemplates
+# views/team
+
+# Files to ignore
+# config-secured.env
+# dbStrings-secured.js
+
+# securedRoutes.js
+
+# crypy-piesModel.js
+# crypy-piesController.js
+# crypy-pies.js
+
+# emailScript.js
+# emailController.js
+# emailModel.js
+
+# finances.ejs
+# productivity.js
+# qb_config.qwc
+.env
+# File types to ignore
+*.log

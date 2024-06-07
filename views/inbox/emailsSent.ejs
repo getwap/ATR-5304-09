@@ -1,0 +1,1418 @@
+<%- contentFor('HeaderCss') %> <%- contentFor('body') %>
+
+<!-- Top Email Domain downdowns section -->
+<div class="card">
+  <div class="card-body">
+    <div class="row" style="padding: 0px 30px">
+      <div class="col" style="padding: 7px 3px">
+        <div class="btn-group" style="min-width: -webkit-fill-available">
+          <button
+            id="personalDropdownButton"
+            class="btn btn-sm btn-outline-personal btn-border"
+            type="button"
+          >
+            Personal
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm btn-outline-personal btn-border dropdown-toggle dropdown-toggle-split"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          ></button>
+          <div class="dropdown-menu">
+            <a
+              class="dropdown-item"
+              id="#personal-emails-gmail"
+              onclick="updateButton('smendoza864@gmail.com', 'personalDropdownButton')"
+              >smendoza864@gmail.com</a
+            >
+            <a
+              class="dropdown-item"
+              href="#personal-emails-hotmail"
+              onclick="updateButton('steff.mendoza@hotmail.com', 'personalDropdownButton')"
+              >steff.mendoza@hotmail.com</a
+            >
+            <a
+              class="dropdown-item"
+              href="#personal-emails-yahoo"
+              onclick="updateButton('smendoza864@yahoo.com', 'personalDropdownButton')"
+              >smendoza864@yahoo.com</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- end of col -->
+
+      <div class="col" style="padding: 7px 3px">
+        <div class="btn-group" style="min-width: -webkit-fill-available">
+          <button
+            id="elDropdownButton"
+            class="btn btn-sm btn-outline-el btn-border"
+            type="button"
+          >
+            Enterpriselux
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm btn-outline-el btn-border dropdown-toggle dropdown-toggle-split"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          ></button>
+          <div class="dropdown-menu">
+            <a
+              class="dropdown-item"
+              href="#el-emails-admin"
+              onclick="updateButton('admin@enterpriselux.com', 'elDropdownButton')"
+              >admin@enterpriselux.com</a
+            >
+            <a
+              class="dropdown-item"
+              href="#el-emails-support"
+              onclick="updateButton('support@enterpriselux.com', 'elDropdownButton')"
+              >support@enterpriselux.com</a
+            >
+            <a
+              class="dropdown-item"
+              href="#el-emails-smm"
+              onclick="updateButton('smm@enterpriselux.com', 'elDropdownButton')"
+              >smm@enterpriselux.com</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- end of col -->
+
+      <div class="col" style="padding: 7px 3px">
+        <div class="btn-group" style="min-width: -webkit-fill-available">
+          <button
+            id="veDropdownButton"
+            class="btn btn-sm btn-outline-ve btn-border"
+            type="button"
+          >
+            Vapor Edge
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm btn-outline-ve btn-border dropdown-toggle dropdown-toggle-split"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          ></button>
+          <div class="dropdown-menu">
+            <a
+              class="dropdown-item"
+              href="#ve-emails-admin"
+              onclick="updateButton('admin@vapor-edge.com', 'veDropdownButton')"
+              >admin@vapor-edge.com</a
+            >
+            <a
+              class="dropdown-item"
+              href="#ve-emails-support"
+              onclick="updateButton('support@vapor-edge.com', 'veDropdownButton')"
+              >support@vapor-edge.com</a
+            >
+            <a
+              class="dropdown-item"
+              href="#ve-emails-smm"
+              onclick="updateButton('smm@vapor-edge.com', 'veDropdownButton')"
+              >smm@vapor-edge.com</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- end of col -->
+
+      <div class="col" style="padding: 7px 3px">
+        <div class="btn-group" style="min-width: -webkit-fill-available">
+          <button
+            id="mpmDropdownButton"
+            class="btn btn-sm btn-outline-mpm btn-border"
+            type="button"
+          >
+            Mendoza's Precious Metals
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm btn-outline-mpm btn-border dropdown-toggle dropdown-toggle-split"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          ></button>
+          <div class="dropdown-menu">
+            <a
+              class="dropdown-item"
+              href="#mpm-emails-admin"
+              onclick="updateButton('admin@mendozaspreciousmetals.com', 'mpmDropdownButton')"
+              >admin@mendozaspreciousmetals.com</a
+            >
+            <a
+              class="dropdown-item"
+              href="#mpm-emails-support"
+              onclick="updateButton('support@mendozaspreciousmetals.com', 'mpmDropdownButton')"
+              >support@mendozaspreciousmetals.com</a
+            >
+            <a
+              class="dropdown-item"
+              href="#mpm-emails-smm"
+              onclick="updateButton('smm@mendozaspreciousmetals.com', 'mpmDropdownButton')"
+              >smm@mendozaspreciousmetals.com</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col" style="padding: 7px 3px">
+        <div class="btn-group" style="min-width: -webkit-fill-available">
+          <button
+            id="wnDropdownButton"
+            class="btn btn-sm btn-outline-wn btn-border"
+            type="button"
+          >
+            White Nirvana
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm btn-outline-wn btn-border dropdown-toggle dropdown-toggle-split"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          ></button>
+          <div class="dropdown-menu">
+            <a
+              class="dropdown-item"
+              href="#wn-emails-admin"
+              onclick="updateButton('admin@white-nirvana.com', 'wnDropdownButton')"
+              >admin@white-nirvana.com</a
+            >
+            <a
+              class="dropdown-item"
+              href="#wn-emails-support"
+              onclick="updateButton('support@white-nirvana.com', 'wnDropdownButton')"
+              >support@white-nirvana.com</a
+            >
+            <a
+              class="dropdown-item"
+              href="#wn-emails-smm"
+              onclick="updateButton('smm@white-nirvana.com', 'wnDropdownButton')"
+              >smm@white-nirvana.com</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tab-content text-muted">
+  <div class="tab-pane active" id="personal-emails-gmail" role="tabpanel">
+    <div class="d-flex">
+      <div class="flex-grow-1">
+        <div class="card" style="background-color: transparent">
+          <div
+            class="email-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1"
+            style="margin: 0px !important"
+          >
+            <div
+              class="email-menu-sidebar"
+              style="background-color: transparent"
+            >
+              <div class="p-4 d-flex flex-column h-100">
+                <div class="pb-4 border-bottom border-bottom-dashed">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary w-100"
+                    data-bs-toggle="modal"
+                    data-bs-target="#composemodal"
+                  >
+                    <i
+                      data-feather="plus-circle"
+                      class="icon-xs me-1 icon-dual-light"
+                    ></i>
+                    Compose
+                  </button>
+                </div>
+
+                <div
+                  class="mx-n4 px-4 email-menu-sidebar-scroll"
+                  data-simplebar
+                >
+                  <div class="mail-list mt-3">
+                    <!-- <a href="#" class="active"
+                      ><i class="ri-mail-fill me-3 align-middle fw-medium"></i>
+                      <span class="mail-list-link">Inbox</span>
+                      <span class="badge bg-success-subtle text-success ms-auto"
+                        >5</span
+                      ></a
+                    >
+                    <a href="#"
+                      ><i
+                        class="ri-inbox-archive-fill me-3 align-middle fw-medium"
+                      ></i>
+                      <span class="mail-list-link">Linked to Tasks</span>
+                      <span class="badge bg-success-subtle text-success ms-auto"
+                        >5</span
+                      ></a
+                    >
+                    <a href="#" id="loadSentEmails"
+                      ><i
+                        class="ri-send-plane-2-fill me-3 align-middle fw-medium"
+                      ></i
+                      ><span class="mail-list-link">Sent</span></a
+                    > -->
+
+                    <a
+                      href="/inbox/emails"
+                      class="<%= activeClass('/inbox/emails') %>"
+                    >
+                      <i class="ri-mail-fill me-3 align-middle fw-medium"></i>
+                      <span class="mail-list-link">Inbox</span>
+                      <span class="badge bg-success-subtle text-success ms-auto"
+                        >5</span
+                      >
+                    </a>
+
+                    <a
+                      href="/inbox/sentEmails"
+                      class="<%= activeClass('/inbox/sentEmails') %>"
+                    >
+                      <i
+                        class="ri-send-plane-2-fill me-3 align-middle fw-medium"
+                      ></i>
+                      <span class="mail-list-link">Sent</span>
+                    </a>
+
+                    <a href="#"
+                      ><i class="ri-edit-2-fill me-3 align-middle fw-medium"></i
+                      ><span class="mail-list-link">Draft</span></a
+                    >
+                    <a href="#"
+                      ><i
+                        class="ri-error-warning-fill me-3 align-middle fw-medium"
+                      ></i
+                      ><span class="mail-list-link">Spam</span></a
+                    >
+                    <a href="#"
+                      ><i
+                        class="ri-delete-bin-5-fill me-3 align-middle fw-medium"
+                      ></i
+                      ><span class="mail-list-link">Trash</span></a
+                    >
+                  </div>
+
+                  <div>
+                    <div class="h5" style="margin-top: 1.5rem">
+                      <span class="fs-12 text-uppercase text-muted mt-4"
+                        >Labels</span
+                      ><a
+                        class="bx bx-plus me-3 align-middle fw-medium"
+                        style="float: inline-end"
+                      ></a>
+                    </div>
+                    <div class="mail-list mt-1">
+                      <a href="#"
+                        ><span
+                          class="ri-checkbox-blank-circle-line me-2 text-info"
+                        ></span
+                        ><span class="mail-list-link" data-type="label"
+                          >Support</span
+                        >
+                        <span
+                          class="badge bg-success-subtle text-success ms-auto"
+                          >3</span
+                        ></a
+                      >
+                      <a href="#"
+                        ><span
+                          class="ri-checkbox-blank-circle-line me-2 text-warning"
+                        ></span
+                        ><span class="mail-list-link" data-type="label"
+                          >Freelance</span
+                        ></a
+                      >
+                      <a href="#"
+                        ><span
+                          class="ri-checkbox-blank-circle-line me-2 text-primary"
+                        ></span
+                        ><span class="mail-list-link" data-type="label"
+                          >Social</span
+                        ></a
+                      >
+                      <a href="#"
+                        ><span
+                          class="ri-checkbox-blank-circle-line me-2 text-danger"
+                        ></span
+                        ><span class="mail-list-link" data-type="label"
+                          >Friends</span
+                        ><span
+                          class="badge bg-success-subtle text-success ms-auto"
+                          >2</span
+                        ></a
+                      >
+                      <a href="#"
+                        ><span
+                          class="ri-checkbox-blank-circle-line me-2 text-success"
+                        ></span
+                        ><span class="mail-list-link" data-type="label"
+                          >Family</span
+                        ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-auto">
+                  <h5 class="fs-13">1.75 GB of 10 GB used</h5>
+                  <div class="progress progress-sm">
+                    <div
+                      class="progress-bar bg-success"
+                      role="progressbar"
+                      style="width: 25%"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="email-content">
+              <div class="p-4 pb-0">
+                <div class="border-bottom border-bottom-dashed">
+                  <div class="row mt-n2 mb-3 mb-sm-0">
+                    <div class="col-3 order-sm-2">
+                      <div
+                        class="hstack gap-sm-1 align-items-center flex-wrap email-topbar-link"
+                      >
+                        <div class="form-check fs-14 m-0">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="checkall"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="checkall"
+                          ></label>
+                        </div>
+                        <div id="email-topbar-actions">
+                          <div
+                            class="hstack gap-sm-1 align-items-center flex-wrap"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-ghost-secondary btn-icon btn-sm fs-16"
+                              data-bs-toggle="tooltip"
+                              data-bs-trigger="hover"
+                              data-bs-placement="top"
+                              title="Archive"
+                            >
+                              <i class="ri-inbox-archive-fill align-bottom"></i>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-ghost-secondary btn-icon btn-sm fs-16"
+                              data-bs-toggle="tooltip"
+                              data-bs-trigger="hover"
+                              data-bs-placement="top"
+                              title="Report Spam"
+                            >
+                              <i class="ri-error-warning-fill align-bottom"></i>
+                            </button>
+                            <div
+                              data-bs-toggle="tooltip"
+                              data-bs-trigger="hover"
+                              data-bs-placement="top"
+                              title="Trash"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-ghost-secondary btn-icon btn-sm fs-16"
+                                data-bs-toggle="modal"
+                                data-bs-target="#removeItemModal"
+                              >
+                                <i
+                                  class="ri-delete-bin-5-fill align-bottom"
+                                ></i>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="vr align-self-center mx-2"></div>
+
+                        <div class="btn-group" style="width: 150px">
+                          <button
+                            class="btn btn-light btn-sm"
+                            type="button"
+                            data-bs-toggle="modal"
+                          >
+                            Bulk Action
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-light dropdown-toggle dropdown-toggle-split"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          ></button>
+                          <div class="dropdown-menu">
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              aria-selected="false"
+                            >
+                              Mark as Important
+                            </a>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              aria-selected="false"
+                            >
+                              Add Star
+                            </a>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              aria-selected="false"
+                            >
+                              Mark as Read
+                            </a>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              aria-selected="false"
+                            >
+                              Mark as Unread
+                            </a>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              aria-selected="false"
+                            >
+                              Delete All
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm order-sm-2">
+                      <div class="row align-items-end mt-3">
+                        <div class="col">
+                          <div id="mail-filter-navlist">
+                            <ul
+                              class="nav nav-tabs nav-tabs-custom nav-primary gap-1 text-center border-bottom-0"
+                              role="tablist"
+                            >
+                              <li class="nav-item">
+                                <button
+                                  class="nav-link fw-semibold active"
+                                  id="pills-primary-tab"
+                                  data-bs-toggle="pill"
+                                  data-bs-target="#pills-primary"
+                                  type="button"
+                                  role="tab"
+                                  aria-controls="pills-primary"
+                                  aria-selected="true"
+                                >
+                                  <i
+                                    class="ri-mail-unread-fill align-bottom d-inline-block"
+                                  ></i>
+                                  <label
+                                    class="ms-1 d-sm-inline-block"
+                                    style="margin: 0px"
+                                  >
+                                    Unread
+                                  </label>
+                                </button>
+                              </li>
+                              <li class="nav-item">
+                                <button
+                                  class="nav-link fw-semibold"
+                                  id="pills-social-tab"
+                                  data-bs-toggle="pill"
+                                  data-bs-target="#pills-social"
+                                  type="button"
+                                  role="tab"
+                                  aria-controls="pills-social"
+                                  aria-selected="false"
+                                >
+                                  <i
+                                    class="mdi mdi-exclamation-thick align-bottom d-inline-block"
+                                  ></i>
+                                  <label
+                                    class="ms-1 d-sm-inline-block text-muted"
+                                    style="margin: 0px"
+                                  >
+                                    Important
+                                  </label>
+                                </button>
+                              </li>
+                              <li class="nav-item">
+                                <button
+                                  class="nav-link fw-semibold"
+                                  id="pills-promotions-tab"
+                                  data-bs-toggle="pill"
+                                  data-bs-target="#pills-promotions"
+                                  type="button"
+                                  role="tab"
+                                  aria-controls="pills-promotions"
+                                  aria-selected="false"
+                                >
+                                  <i
+                                    class="ri-star-fill align-bottom d-inline-block"
+                                  ></i>
+                                  <label
+                                    class="ms-1 d-sm-inline-block text-muted"
+                                    style="margin: 0px"
+                                  >
+                                    Starred
+                                  </label>
+                                </button>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3 order-sm-2">
+                      <div
+                        class="hstack gap-sm-1 align-items-center flex-wrap email-topbar-link"
+                      >
+                        <div class="dropdown">
+                          <button
+                            class="btn btn-ghost-secondary btn-icon btn-sm fs-16"
+                            type="button"
+                            data-bs-toggle="modal"
+                            data-bs-target="#emailSettings-modal"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            <i class="ri-mail-settings-line"></i>
+                          </button>
+
+                          <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#"
+                              >Mark as Important</a
+                            >
+                            <a class="dropdown-item" href="#" id="mark-all-read"
+                              >Add Star</a
+                            >
+                            <a class="dropdown-item" href="#" id="mark-all-read"
+                              >Mark as Read</a
+                            >
+                            <a class="dropdown-item" href="#" id="mark-all-read"
+                              >Mark as Unread</a
+                            >
+                            <a class="dropdown-item" href="#" id="mark-all-read"
+                              >Delete All</a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="d-flex gap-sm-1 email-topbar-link">
+                          <select
+                            class="form-select form-select-sm"
+                            aria-label=".form-select-sm example"
+                          >
+                            <option value="show50 active">Show 50</option>
+                            <option value="show100">Show 100</option>
+                            <option value="show250">Show 250</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <ul class="message-list" id="mail-list"></ul> -->
+                <div class="container" style="margin-top: 20px">
+                  <div id="mail-list"></div>
+                </div>
+
+                <!-- <div class="tab-content">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-primary"
+                    role="tabpanel"
+                    aria-labelledby="pills-primary-tab"
+                  >
+                    <div
+                      class="message-list-content mx-n4 px-4 message-list-scroll"
+                    >
+                      <div id="processingLoader" class="processing-loader">
+                        <div
+                          class="spinner-border text-info avatar-sm"
+                          role="status"
+                        >
+                          <span class="visually-hidden">Loading...</span>
+                        </div>
+                      </div>
+
+                      <ul class="message-list" id="mail-list"></ul>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-social"
+                    role="tabpanel"
+                    aria-labelledby="pills-social-tab"
+                  >
+                    <div
+                      class="message-list-content mx-n4 px-4 message-list-scroll"
+                    >
+                      <ul class="message-list" id="social-mail-list"></ul>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-promotions"
+                    role="tabpanel"
+                    aria-labelledby="pills-promotions-tab"
+                  >
+                    <div
+                      class="message-list-content mx-n4 px-4 message-list-scroll"
+                    >
+                      <ul class="message-list" id="promotions-mail-list"></ul>
+                    </div>
+                  </div>
+                  <div class="row float-end">
+                    <ul
+                      class="pagination pagination-sm pagination-rounded pt-3"
+                    >
+                      <li class="page-item disabled">
+                        <a href="#" class="page-link">←</a>
+                      </li>
+                      <li class="page-item">
+                        <a href="#" class="page-link">1</a>
+                      </li>
+                      <li class="page-item active">
+                        <a href="#" class="page-link">2</a>
+                      </li>
+                      <li class="page-item">
+                        <a href="#" class="page-link">3</a>
+                      </li>
+                      <li class="page-item">
+                        <a href="#" class="page-link">4</a>
+                      </li>
+                      <li class="page-item">
+                        <a href="#" class="page-link">...</a>
+                      </li>
+                      <li class="page-item">
+                        <a href="#" class="page-link">1,500</a>
+                      </li>
+                      <li class="page-item">
+                        <a href="#" class="page-link">→</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="text-muted mb-2 position-absolute bottom-0 start-50 translate-middle-x"
+                  >
+                    1-50 of 154
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+            <!-- end of email-content -->
+
+            <div class="email-detail-content">
+              <div class="p-4 d-flex flex-column h-100">
+                <div class="pb-4 border-bottom border-bottom-dashed">
+                  <div class="row">
+                    <div class="col">
+                      <div class="">
+                        <button
+                          type="button"
+                          class="btn btn-soft-danger btn-icon btn-sm fs-16 close-btn-email"
+                          id="close-btn-email"
+                        >
+                          <i class="ri-close-fill align-bottom"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <div
+                        class="hstack gap-sm-1 align-items-center flex-wrap email-topbar-link"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-ghost-warning btn-icon btn-sm fs-16 favourite-btn active"
+                        >
+                          <i class="ri-star-fill align-bottom"></i>
+                        </button>
+                        <button
+                          class="btn btn-ghost-secondary btn-icon btn-sm fs-16"
+                        >
+                          <i class="ri-printer-fill align-bottom"></i>
+                        </button>
+                        <button
+                          class="btn btn-ghost-secondary btn-icon btn-sm fs-16 remove-mail"
+                          data-remove-id=""
+                          data-bs-toggle="modal"
+                          data-bs-target="#removeItemModal"
+                        >
+                          <i class="ri-delete-bin-5-fill align-bottom"></i>
+                        </button>
+                        <div class="dropdown">
+                          <button
+                            class="btn btn-ghost-secondary btn-icon btn-sm fs-16"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            <i class="ri-more-2-fill align-bottom"></i>
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#">Mark as Unread</a>
+                            <a class="dropdown-item" href="#"
+                              >Mark as Important</a
+                            >
+                            <a class="dropdown-item" href="#">Add to Tasks</a>
+                            <a class="dropdown-item" href="#">Add Star</a>
+                            <a class="dropdown-item" href="#">Mute</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="mx-n4 px-4 email-detail-content-scroll"
+                  data-simplebar
+                >
+                  <div class="mt-4 mb-3">
+                    <h5 class="fw-bold email-subject-title">
+                      New updates for Skote Theme
+                    </h5>
+                  </div>
+
+                  <div class="accordion accordion-flush">
+                    <div class="accordion-item border-dashed left">
+                      <div class="accordion-header">
+                        <a
+                          role="button"
+                          class="btn w-100 text-start px-0 bg-transparent shadow-none collapsed"
+                          data-bs-toggle="collapse"
+                          href="#email-collapseOne"
+                          aria-expanded="true"
+                          aria-controls="email-collapseOne"
+                        >
+                          <div class="d-flex align-items-center text-muted">
+                            <div class="flex-shrink-0 avatar-xs me-3">
+                              <img
+                                src="/assets/images/users/avatar-3.jpg"
+                                alt=""
+                                class="img-fluid rounded-circle"
+                              />
+                            </div>
+                            <div class="flex-grow-1 overflow-hidden">
+                              <h5
+                                class="fs-14 text-truncate email-user-name mb-0"
+                              >
+                                Jack Davis
+                              </h5>
+                              <div class="text-truncate fs-12">to: me</div>
+                            </div>
+                            <div class="flex-shrink-0 align-self-start">
+                              <div class="text-muted fs-12">
+                                09 Jan 2022, 11:12 AM
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div
+                        id="email-collapseOne"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body text-body px-0">
+                          <div>
+                            <p>Hi,</p>
+                            <p>
+                              Praesent dui ex, dapibus eget mauris ut, finibus
+                              vestibulum enim. Quisque arcu leo, facilisis in
+                              fringilla id, luctus in tortor.
+                            </p>
+                            <p>
+                              Sed elementum turpis eu lorem interdum, sed
+                              porttitor eros commodo. Nam eu venenatis tortor,
+                              id lacinia diam. Sed aliquam in dui et porta. Sed
+                              bibendum orci non tincidunt ultrices.
+                            </p>
+                            <p>Sincerly,</p>
+
+                            <div class="d-flex gap-3">
+                              <div class="border rounded avatar-xl h-auto">
+                                <img
+                                  src="/assets/images/small/img-2.jpg"
+                                  alt=""
+                                  class="img-fluid rouned-top"
+                                />
+                                <div class="py-2 text-center">
+                                  <a href="" class="d-block fw-semibold"
+                                    >Download</a
+                                  >
+                                </div>
+                              </div>
+                              <div class="border rounded avatar-xl h-auto">
+                                <img
+                                  src="/assets/images/small/img-6.jpg"
+                                  alt=""
+                                  class="img-fluid rouned-top"
+                                />
+                                <div class="py-2 text-center">
+                                  <a href="" class="d-block fw-semibold"
+                                    >Download</a
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end accordion-item -->
+
+                    <div class="accordion-item border-dashed right">
+                      <div class="accordion-header">
+                        <a
+                          role="button"
+                          class="btn w-100 text-start px-0 bg-transparent shadow-none collapsed"
+                          data-bs-toggle="collapse"
+                          href="#email-collapseTwo"
+                          aria-expanded="true"
+                          aria-controls="email-collapseTwo"
+                        >
+                          <div class="d-flex align-items-center text-muted">
+                            <div class="flex-shrink-0 avatar-xs me-3">
+                              <img
+                                src="/assets/images/users/avatar-1.jpg"
+                                alt=""
+                                class="img-fluid rounded-circle"
+                              />
+                            </div>
+                            <div class="flex-grow-1 overflow-hidden">
+                              <h5
+                                class="fs-14 text-truncate email-user-name-right mb-0"
+                              >
+                                Anna Adame
+                              </h5>
+                              <div class="text-truncate fs-12">
+                                to: jackdavis@email.com
+                              </div>
+                            </div>
+                            <div class="flex-shrink-0 align-self-start">
+                              <div class="text-muted fs-12">
+                                09 Jan 2022, 02:15 PM
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div
+                        id="email-collapseTwo"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body text-body px-0">
+                          <div>
+                            <p>Hi,</p>
+                            <p>
+                              If several languages coalesce, the grammar of the
+                              resulting language is more simple and regular than
+                              that of the individual.
+                            </p>
+                            <p>Thank you</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end accordion-item -->
+
+                    <div class="accordion-item border-dashed left">
+                      <div class="accordion-header">
+                        <a
+                          role="button"
+                          class="btn w-100 text-start px-0 bg-transparent shadow-none"
+                          data-bs-toggle="collapse"
+                          href="#email-collapseThree"
+                          aria-expanded="true"
+                          aria-controls="email-collapseThree"
+                        >
+                          <div class="d-flex align-items-center text-muted">
+                            <div class="flex-shrink-0 avatar-xs me-3">
+                              <img
+                                src="/assets/images/users/avatar-3.jpg"
+                                alt=""
+                                class="img-fluid rounded-circle"
+                              />
+                            </div>
+                            <div class="flex-grow-1 overflow-hidden">
+                              <h5
+                                class="fs-14 text-truncate email-user-name mb-0"
+                              >
+                                Jack Davis
+                              </h5>
+                              <div class="text-truncate fs-12">to: me</div>
+                            </div>
+                            <div class="flex-shrink-0 align-self-start">
+                              <div class="text-muted fs-12">
+                                10 Jan 2022, 10:08 AM
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div
+                        id="email-collapseThree"
+                        class="accordion-collapse collapse show"
+                      >
+                        <div class="accordion-body text-body px-0">
+                          <div>
+                            <p>Hi,</p>
+                            <p>
+                              Everyone realizes why a new common language would
+                              be desirable: one could refuse to pay expensive
+                              translators. To achieve this, it would be
+                              necessary to have uniform grammar pronunciation.
+                            </p>
+                            <p>Thank you</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end accordion-item -->
+                  </div>
+                  <!-- end accordion -->
+                </div>
+                <div class="mt-auto">
+                  <form class="mt-2">
+                    <div>
+                      <label
+                        for="exampleFormControlTextarea1"
+                        class="form-label"
+                        >Reply :</label
+                      >
+                      <textarea
+                        class="form-control border-bottom-0 rounded-top rounded-0 border"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                        placeholder="Enter message"
+                      ></textarea>
+                      <div class="bg-light px-2 py-1 rouned-bottom border">
+                        <div class="row">
+                          <div class="col">
+                            <div class="btn-group" role="group">
+                              <button
+                                type="button"
+                                class="btn btn-sm py-0 fs-15 btn-light"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Bold"
+                              >
+                                <i class="ri-bold align-bottom"></i>
+                              </button>
+                              <button
+                                type="button"
+                                class="btn btn-sm py-0 fs-15 btn-light"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Italic"
+                              >
+                                <i class="ri-italic align-bottom"></i>
+                              </button>
+                              <button
+                                type="button"
+                                class="btn btn-sm py-0 fs-15 btn-light"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Link"
+                              >
+                                <i class="ri-link align-bottom"></i>
+                              </button>
+                              <button
+                                type="button"
+                                class="btn btn-sm py-0 fs-15 btn-light"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Image"
+                              >
+                                <i class="ri-image-2-line align-bottom"></i>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <div class="btn-group">
+                              <button
+                                type="button"
+                                class="btn btn-sm btn-success"
+                              >
+                                <i
+                                  class="ri-send-plane-2-fill align-bottom"
+                                ></i>
+                              </button>
+                              <button
+                                type="button"
+                                class="btn btn-sm btn-success dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                              >
+                                <span class="visually-hidden"
+                                  >Toggle Dropdown</span
+                                >
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    ><i
+                                      class="ri-timer-line text-muted me-1 align-bottom"
+                                    ></i>
+                                    Schedule Send</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <!-- end email-detail-content -->
+          </div>
+          <!-- end email wrapper -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Alert message: Sent Successfully -->
+<div data-aos="fade-up" class="aos-init aos-animate">
+  <div id="emailSentAlert" class="eventUpdateAlert">
+    <div
+      class="alert alert-info alert-border-left alert-dismissible"
+      role="alert"
+    >
+      <i class="ri-mail-send-line me-3 align-middle fs-18"></i
+      ><strong>Email Sent</strong> - Receiptent should see it soon.
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+  </div>
+</div>
+<!-- end of Alert message: Sent Successfully -->
+
+<!-- Alert message: Review Credentials -->
+<div data-aos="fade-up" class="aos-init aos-animate">
+  <div id="emailCredentialsAlert" class="eventUpdateAlert">
+    <div
+      class="alert alert-warning alert-border-left alert-dismissible"
+      role="alert"
+    >
+      <i class="ri-alert-line me-3 align-middle fs-16"></i
+      ><strong>Email Not Sent</strong> - Review Credentials and try again.
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+  </div>
+</div>
+<!-- end of Alert message: Review Credentials -->
+
+<!-- Compose popup Modal -->
+<div
+  class="modal fade"
+  id="composemodal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="composemodalTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header p-3 bg-light">
+        <h5 class="modal-title" id="composemodalTitle">New Message</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form id="emailForm" method="post" action="/inbox/sendEmail">
+          <div>
+            <div class="mb-3">
+              <select
+                class="form-select"
+                id="emailFrom"
+                name="emailFrom"
+                aria-label="Select Email"
+                onchange="document.getElementById('email-to-send').value = this.value"
+              >
+                <option value="smendoza864@gmail.com">
+                  smendoza864@gmail.com
+                </option>
+                <option value="steff.mendoza@hotmail.com">
+                  steff.mendoza@hotmail.com
+                </option>
+                <option value="smendoza864@yahoo.com">
+                  smendoza864@yahoo.com
+                </option>
+                <option value="steff.mendoza@hotmail.com">
+                  steff.mendoza@hotmail.com
+                </option>
+              </select>
+            </div>
+
+            <div class="mb-3 position-relative">
+              <input
+                type="email"
+                class="form-control email-compose-input"
+                data-choices
+                data-choices-limit="15"
+                id="emailTo"
+                name="emailTo"
+                class="form-control"
+                data-choices-removeItem
+                placeholder="To"
+              />
+              <div class="position-absolute top-0 end-0">
+                <div class="d-flex">
+                  <button
+                    class="btn btn-link text-reset fw-semibold px-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#CcRecipientsCollapse"
+                    aria-expanded="false"
+                    aria-controls="CcRecipientsCollapse"
+                  >
+                    Cc
+                  </button>
+                  <button
+                    class="btn btn-link text-reset fw-semibold px-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#BccRecipientsCollapse"
+                    aria-expanded="false"
+                    aria-controls="BccRecipientsCollapse"
+                  >
+                    Bcc
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="collapse" id="CcRecipientsCollapse">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  data-choices
+                  data-choices-limit="15"
+                  data-choices-removeItem
+                  placeholder="Cc recipients"
+                  name="Ccrecipients"
+                  id="Ccrecipients"
+                />
+              </div>
+            </div>
+            <div class="collapse" id="BccRecipientsCollapse">
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  data-choices
+                  data-choices-limit="15"
+                  data-choices-removeItem
+                  placeholder="Bcc recipients"
+                  name="Bbrecipients"
+                  id="Bbrecipients"
+                />
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <input
+                type="text"
+                id="emailSubject"
+                name="emailSubject"
+                class="form-control"
+                placeholder="Subject"
+              />
+            </div>
+            <div class="ck-editor-reverse" id="emailEditor"></div>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-soft-dark" data-bs-dismiss="modal">
+          Discard
+        </button>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary" onclick="sendEmail()">
+            Send
+          </button>
+          <button
+            type="button"
+            class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li>
+              <a class="dropdown-item" href="#"
+                ><i class="ri-timer-line text-muted me-1 align-bottom"></i>
+                Schedule Send</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Toast notification -->
+<div
+  id="toast"
+  style="
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 16px;
+    z-index: 1;
+    border-radius: 8px;
+  "
+>
+  <div class="toast-body">Email sent successfully!</div>
+</div>
+<div
+  id="errorFound"
+  style="
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    background-color: #b4060f;
+    color: white;
+    padding: 16px;
+    z-index: 1;
+    border-radius: 8px;
+  "
+>
+  <div class="toast-body">Email Not sent ,check your connection!</div>
+</div>
+<div
+  id="alert"
+  style="
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    background-color: #fbff03;
+    color: rgb(26, 25, 25);
+    padding: 16px;
+    z-index: 1;
+    border-radius: 8px;
+  "
+>
+  <strong>Loading:</strong> Sending email...
+  <i class="fa fa-spinner fa-spin"></i>
+</div>
+
+<!-- email ssending script  -->
+
+<!-- end of Compose popup Modal -->
+
+<!-- removeItemModal -->
+<div
+  id="removeItemModal"
+  class="modal fade zoomIn"
+  tabindex="-1"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+          id="btn-close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="mt-2 text-center">
+          <lord-icon
+            src="https://cdn.lordicon.com/gsqxdxog.json"
+            trigger="loop"
+            colors="primary:#f7b84b,secondary:#f06548"
+            style="width: 100px; height: 100px"
+          ></lord-icon>
+          <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
+            <h4>Are you Sure ?</h4>
+            <p class="text-muted mx-4 mb-0">
+              Are you Sure You want to Remove this Record ?
+            </p>
+          </div>
+        </div>
+        <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
+          <button
+            type="button"
+            class="btn w-sm btn-light"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button type="button" class="btn w-sm btn-danger" id="delete-record">
+            Yes, Delete It!
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<div class="d-flex mt-2"></div>
+
+<%- contentFor('FooterJs') %>
+<script></script>
+<!--ckeditor js-->
+<script src="/assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+
+<!-- mailbox init -->
+<script src="/assets/js/pages/mailbox.init.js"></script>
+
+<script src="/assets/js/emailScriptSent.js"></script>
+Sent Emails

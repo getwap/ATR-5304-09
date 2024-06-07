@@ -1,0 +1,108 @@
+              <!-- Emails Settings model -->
+              <div class="modal fade bs-emailSettings-modal-xl" id="emailSettings-modal" tabindex="-1" aria-labelledby="emailSettingsTitle"
+                style="display: block;" aria-modal="true" role="dialog">
+                <div class="modal-dialog modal-xl modal-dialog-centered zoomIn">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title fw-bold" id="emailSettingsTitle">Email Settings</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="col-xl-12">
+                        <div class="card-body">
+                          <!-- Nav tabs -->
+                          <ul class="nav nav-tabs nav-tabs-custom nav-primary nav-justified mb-3" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <a class="nav-link active" data-bs-toggle="tab" href="#home1" role="tab"
+                                aria-selected="true">
+                                Labels
+                              </a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <a class="nav-link" data-bs-toggle="tab" href="#profile1" role="tab" aria-selected="false"
+                                tabindex="-1">
+                                Filters
+                              </a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <a class="nav-link" data-bs-toggle="tab" href="#messages1" role="tab"
+                                aria-selected="false" tabindex="-1">
+                                Signature
+                              </a>
+                            </li>
+                          </ul>
+
+                          <!-- Tab panes -->
+                          <div class="tab-content text-muted">
+                            <div class="tab-pane active" id="home1" role="tabpanel">
+                              <div class="d-flex">
+                                <div class="flex-grow-1 ms-2">
+                                  <h6 class="fs-16 my-3">Graphic Design</h6>
+                                  <div class="d-flex mt-2">
+                                    <div class="flex-grow-1 ms-2 ">
+                                      <p class="text-muted mb-0">Opposites attract, and that’s a fact. It’s in our
+                                        nature to be interested
+                                        in the
+                                        unusual, and that’s why using contrasting colors in Graphic Design is a must.
+                                        It’s eye-catching, it
+                                        makes
+                                        a statement, it’s impressive graphic design. Increase or decrease the letter
+                                        spacing depending.</p>
+                                    </div>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane" id="profile1" role="tabpanel">
+                              <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                  <i class="ri-checkbox-multiple-blank-fill text-success"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-2">
+                                  When, while the lovely valley teems with vapour around me, and the meridian sun
+                                  strikes the upper surface
+                                  of
+                                  the impenetrable foliage of my trees, and but a few stray gleams steal into the inner
+                                  sanctuary, I throw
+                                  myself down among the tall grass by the trickling stream; and, as I lie close to the
+                                  earth, a thousand
+                                  unknown.
+                                  <div class="mt-2">
+                                    <a href="javascript:void(0);" class="btn btn-sm btn-soft-primary">Read More <i
+                                        class="ri-arrow-right-line ms-1 align-middle"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane" id="messages1" role="tabpanel">
+                              <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                  <i class="ri-checkbox-multiple-blank-fill text-success"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-2">
+                                  Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's
+                                  organic lomo retro
+                                  fanny
+                                  pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft
+                                  beer, iphone
+                                  skateboard
+                                  locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="modal-footer">
+                      <a href="javascript:void(0);" class="btn btn-link link-light fw-medium" data-bs-dismiss="modal"><i
+                          class="ri-close-line me-1 align-middle"></i> Close </a>
+                      <button type="button" class="btn btn-sm btn-soft-primary"> Save changes </button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div>
+

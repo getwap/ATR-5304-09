@@ -1,0 +1,194 @@
+<div class="card" style="position: fixed; bottom: 0; background-color: #3865e5; border-radius: 15px 15px 0px 0px; width: 350px;">
+    <div class="card-header align-items-center d-flex" style="background-color: #3865e5; align-self: center; --vz-card-bg: #3865e5; border-bottom: none; --vz-link-color: #ffffff6b; font-weight: 300;">
+        <div class="flex-shrink-0 ms-2">
+            <ul class="nav justify-content-end nav-tabs-custom rounded card-header-tabs border-bottom-0" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#timer" role="tab" aria-selected="true"> Timer </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" data-bs-toggle="tab" href="#manual" role="tab" aria-selected="false" tabindex="-1"> Manual </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" data-bs-toggle="tab" href="#range" role="tab" aria-selected="false" tabindex="-1"> Range </a>
+                </li>
+            </ul>
+        </div>
+        <div class="bx bx-minus" style="padding: 5px 0px 15px 15px; color: #fff;"></div>
+    </div>
+    <div class="card-body">
+        <!-- Tab panes -->
+        <div class="tab-content text-muted">
+            <div class="tab-pane active" id="timer" role="tabpanel">
+                <div class="input-group">
+                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2" style="background-color: #7ba7e36b;color: #fff; border: 0;">
+                    <button class="btn btn-outline-success" style="color: #fff; border-width: 0px 2px; --vz-btn-border-color: #ffffff6b; --vz-btn-hover-bg: #181818; --vz-btn-hover-border-color: #181818;" type="button" id="button-new-task">+ New Task</button>
+                    </div>
+                    <!-- Input with Icon -->
+                    <div>
+                        <div class="form-icon" style="padding: 5px 0px;">
+                            <input type="email" class="form-control form-control-icon" id="iconInput" style="padding-left: 2.3rem; background-color: #7ba7e36b; color: #fff; border: 0;" placeholder="Timer notes...">
+                            <i class="ri-align-left" style="color: #fff;"></i>
+                        </div>
+                    </div><!-- END Input with Icon -->
+                    <div class="row">
+                    <div class="timer-section" >
+                    <button type="button" class="btn rounded-pill btn-light waves-effect"><i class="ri-play-line"></i></button>
+                    <div><small class="text-muted">2hrs 32min</small></div>
+                    <h6 class="fs-14 mb-0">Today:</h6>
+                    <small class="text-muted">52hrs 15min</small>
+                </div>
+                </div>
+            </div><!-- END of Timer tab -->
+
+            <div class="tab-pane" id="manual" role="tabpanel">
+                <div class="input-group">
+                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2" style="background-color: #7ba7e36b;color: #fff; border: 0;">
+                    <button class="btn btn-outline-success" style="color: #fff; border-width: 0px 2px; --vz-btn-border-color: #ffffff6b; --vz-btn-hover-bg: #181818; --vz-btn-hover-border-color: #181818;" type="button" id="button-new-task">+ New Task</button>
+                    </div>
+                    <!-- Input with Icon -->
+                    <div>
+                        <div class="form-icon" style="padding: 5px 0px;">
+                            <input type="email" class="form-control form-control-icon" id="iconInput" style="padding-left: 2.3rem; background-color: #7ba7e36b; color: #fff; border: 0;" placeholder="Timer notes...">
+                            <i class="ri-time-line" style="color: #fff;"></i>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="form-icon">
+                            <input type="email" class="form-control form-control-icon" id="iconInput" style="padding-left: 2.3rem; background-color: #7ba7e36b; color: #fff; border: 0;" placeholder="Timer notes...">
+                            <i class="ri-align-left" style="color: #fff;"></i>
+                        </div>
+                    </div><!-- END Input with Icon -->
+            </div><!-- END of Manual tab -->
+
+            <div class="tab-pane" id="range" role="tabpanel">
+              <div class="input-group">
+                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2" style="background-color: #7ba7e36b;color: #fff; border: 0;">
+                    <button class="btn btn-outline-success" style="color: #fff; border-width: 0px 2px; --vz-btn-border-color: #ffffff6b; --vz-btn-hover-bg: #181818; --vz-btn-hover-border-color: #181818;" type="button" id="button-new-task">+ New Task</button>
+                    </div>
+                    <!-- Input with Icon -->
+                    <div class="row">
+                     <div class="col-xl-6">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="From: hh:mm" id="cleave-time-format">
+                         </div>
+                     </div>
+                     <div class="col-xl-6">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="To: hh:mm" id="cleave-time-format">
+                        </div>
+                     </div>
+                </div>
+                    <div>
+                        <div class="form-icon">
+                            <input type="email" class="form-control form-control-icon" id="iconInput" style="padding-left: 2.3rem; background-color: #7ba7e36b; color: #fff; border: 0;" placeholder="Timer notes...">
+                            <i class="ri-align-left" style="color: #fff;"></i>
+                        </div>
+                    </div><!-- END Input with Icon -->
+            </div><!-- END of Range tab -->
+
+        
+        </div>
+    </div><!-- end Timer card-body -->
+
+    <div data-simplebar style="max-height: 215px;"> 
+        <ul class="list-group">
+        <li class="list-group-item">
+        <div class="d-flex align-items-center">
+        <div class="flex-grow-1">
+        <div class="d-flex">
+        <div class="flex-shrink-0 avatar-xs">
+            <div class="avatar-title bg-soft-danger text-danger rounded">
+                <i class="ri-netflix-fill"></i>
+            </div>
+        </div>
+        <div class="flex-shrink-0 ms-2">
+            <h6 class="fs-14 mb-0">Netfilx</h6>
+            <small class="text-muted">2 min Ago</small>
+        </div>
+        </div>
+        </div>
+        <div class="flex-shrink-0">
+        <span class="text-danger">-$25.50</span>
+        </div>
+        </div>
+        </li>
+        <li class="list-group-item">
+        <div class="d-flex align-items-center">
+        <div class="flex-grow-1">
+        <div class="d-flex">
+        <div class="flex-shrink-0 avatar-xs">
+            <div class="avatar-title bg-soft-success text-success rounded">
+                <i class="ri-spotify-fill"></i>
+            </div>
+        </div>
+        <div class="flex-shrink-0 ms-2">
+            <h6 class="fs-14 mb-0">Spotify</h6>
+            <small class="text-muted">5 days Ago</small>
+        </div>
+        </div>
+        </div>
+        <div class="flex-shrink-0">
+        <span class="text-success">$48.25</span>
+        </div>
+        </div>
+        </li>
+        <li class="list-group-item">
+        <div class="d-flex align-items-center">
+        <div class="flex-grow-1">
+        <div class="d-flex">
+        <div class="flex-shrink-0">
+            <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded" />
+        </div>
+        <div class="flex-shrink-0 ms-2">
+            <h6 class="fs-14 mb-0">Emily Slater</h6>
+            <small class="text-muted">8 days Ago</small>
+        </div>
+        </div>
+        </div>
+        <div class="flex-shrink-0">
+        <span class="text-success">$354.90</span>
+        </div>
+        </div>
+        </li>
+        <li class="list-group-item">
+        <div class="d-flex align-items-center">
+        <div class="flex-grow-1">
+        <div class="d-flex">
+        <div class="flex-shrink-0 avatar-xs">
+            <div class="avatar-title bg-soft-secondary text-secondary rounded">
+                <i class="ri-paypal-fill"></i>
+            </div>
+        </div>
+        <div class="flex-shrink-0 ms-2">
+            <h6 class="fs-14 mb-0">Paypal</h6>
+            <small class="text-muted">1 month Ago</small>
+        </div>
+        </div>
+        </div>
+        <div class="flex-shrink-0">
+        <span class="text-danger">-$12.22</span>
+        </div>
+        </div>
+        </li>
+        <li class="list-group-item">
+        <div class="d-flex align-items-center">
+        <div class="flex-grow-1">
+        <div class="d-flex">
+        <div class="flex-shrink-0">
+            <img src="assets/images/users/avatar-3.jpg" alt="" class="avatar-xs rounded" />
+        </div>
+        <div class="flex-shrink-0 ms-2">
+            <h6 class="fs-14 mb-0">Harvey Wells</h6>
+            <small class="text-muted">4 month Ago</small>
+        </div>
+        </div>
+        </div>
+        <div class="flex-shrink-0">
+        <span class="text-success">-$459.78</span>
+        </div>
+        </div>
+        </li>
+        </ul>
+        </div> <!-- END List of Recent tasks tracked -->
+</div> <!-- END Timer section -->

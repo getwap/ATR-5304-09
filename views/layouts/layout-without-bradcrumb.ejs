@@ -1,0 +1,34 @@
+<head>
+
+  <%- HeaderCss %>
+
+  <%- include ('../partials/head-css.ejs') %>
+
+</head>
+
+<body>
+  <div id="layout-wrapper">
+    <%- include ('../partials/topbar') %>
+    <%- include ('../partials/sidebar_left') %>
+    <div class="main-content overflow-hidden">
+      <div class="page-content">
+        <div class="container-fluid">
+          <%- body%>
+        </div>
+        <!-- container-fluid -->
+      </div>
+      <!-- End Page-content -->
+      <%- include ('../partials/footer') %>
+
+    </div>
+    <!-- end main content-->
+  </div>
+  <!-- END layout-wrapper -->
+  <%- include ('../partials/vendor-scripts') %>
+  <%- FooterJs %>
+
+  <!-- App js -->
+  <script src="/assets/js/app.js"></script>
+</body>
+
+</html>
